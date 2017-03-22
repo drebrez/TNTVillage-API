@@ -1,5 +1,9 @@
 # TNTVillage-API
 
+[![Build Status](https://travis-ci.org/drebrez/TNTVillage-API.svg?branch=master)]()
+[![Dependency Status](https://david-dm.org/drebrez/TNTVillage-API.svg)](https://david-dm.org/drebrez/TNTVillage-API)
+[![devDependency Status](https://david-dm.org/drebrez/TNTVillage-API/dev-status.svg)](https://david-dm.org/drebrez/TNTVillage-API?type=dev)
+
 A TNTVillage API wrapper for NodeJS.
 
 ## Usage
