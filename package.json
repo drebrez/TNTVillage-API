@@ -13,7 +13,8 @@
   "license": "MIT",
   "main": "tntvillage-api.js",
   "dependencies": {
-    "request": "^2.81.0"
+    "cheerio": "^0.22.0",
+    "got": "^6.7.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",

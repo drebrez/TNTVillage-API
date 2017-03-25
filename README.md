@@ -1,6 +1,6 @@
 # TNTVillage-API
 
-[![Build Status](https://travis-ci.org/drebrez/TNTVillage-API.svg?branch=master)]()
+[![Build Status](https://travis-ci.org/drebrez/TNTVillage-API.svg?branch=master)](https://travis-ci.org/drebrez/TNTVillage-API)
 [![Dependency Status](https://david-dm.org/drebrez/TNTVillage-API.svg)](https://david-dm.org/drebrez/TNTVillage-API)
 [![devDependency Status](https://david-dm.org/drebrez/TNTVillage-API/dev-status.svg)](https://david-dm.org/drebrez/TNTVillage-API?type=dev)
 
