@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 
 module.exports = class TNTVillageAPI {
 
-  constructor({ debug = false } = {}) {
+  constructor(debug = false) {
 
     this._baseUrl = 'http://www.tntvillage.scambioetico.org/src/releaselist.php';
 
@@ -26,7 +26,7 @@ module.exports = class TNTVillageAPI {
   }
 
   _get(query = {}) {
-    if (this._debug) console.info(`Making request to: '${this._baseUrl}', query: ${JSON.stringify(query)}`);
+    if (this._debug) console.info(`DEBUG: Making request to: '${this._baseUrl}', query: ${JSON.stringify(query)}`);
 
     return got(this._baseUrl, {
       method: 'POST',
