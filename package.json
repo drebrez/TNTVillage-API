@@ -1,6 +1,6 @@
 {
   "name": "tntvillage-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A TNTVillage API wrapper for NodeJS.",
   "homepage": "https://github.com/drebrez/TNTVillage-API",
   "repository": {

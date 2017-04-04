@@ -36,6 +36,8 @@ module.exports = class TNTVillageAPI {
   }
 
   _formatPage(res, date) {
+    if (this._debug) console.info(`DEBUG: Parsing result page`);
+
     let $ = cheerio.load(res);
 
     let results = $('#form_go_to_page > span > b:nth-child(1)').text();
@@ -73,11 +75,13 @@ module.exports = class TNTVillageAPI {
         year: parseInt(year, 10),
         quality: quality,
         link: link,
-        torrent_link: torrent_link,
+        torrent_link: decodeURIComponent(torrent_link),
         seeders: parseInt(seeders, 10),
         leechers: parseInt(leechers, 10),
       });
     });
+
+    if (this._debug) console.info(`DEBUG: Returning ${result.results.length} results`);
 
     return result;
   }
