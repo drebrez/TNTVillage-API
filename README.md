@@ -103,13 +103,36 @@ These are the parameters available for the advanced search:
 
 These are the categories available:
 
- - movies
- - cartoons
- - documentaries
- - music
- - sport
- - acting
- - wrestling
+ - all_categories        
+ - movies                
+ - music                 
+ - tv_movies_and_programs
+ - documentaries         
+ - students_releases     
+ - e_books               
+ - linux                 
+ - anime                 
+ - cartoons              
+ - macintosh             
+ - windows_software      
+ - pc_game               
+ - playstation           
+ - music_video           
+ - sport                 
+ - theater               
+ - wrestling             
+ - various               
+ - xbox                  
+ - wallpaper_images      
+ - other_games           
+ - tv_series             
+ - comics                
+ - trash                 
+ - nintendo              
+ - a_book                
+ - podcast               
+ - newsstand             
+ - mobile  
 
 # License
 ```

@@ -14,13 +14,36 @@ module.exports = class TNTVillageAPI {
     this._debug = debug;
 
     this._category = {
+      all_categories: 0,
       movies: 4,
-      cartoons: 8,
+      music: 2,
+      tv_movies_and_programs: 1,
       documentaries: 14,
-      music: 21,
+      students_releases: 13,
+      e_books: 3,
+      linux: 6,
+      anime: 7,
+      cartoons: 8,
+      macintosh: 9,
+      windows_software: 10,
+      pc_game: 11,
+      playstation: 12,
+      music_video: 21,
       sport: 22,
-      acting: 23,
-      wrestling: 24
+      theater: 23,
+      wrestling: 24,
+      various: 25,
+      xbox: 26,
+      wallpaper_images: 27,
+      other_games: 28,
+      tv_series: 29,
+      comics: 30,
+      trash: 31,
+      nintendo: 32,
+      a_book: 34,
+      podcast: 35,
+      newsstand: 36,
+      mobile: 37
     };
 
   }
