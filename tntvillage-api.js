@@ -2,6 +2,7 @@
 
 const got = require('got');
 const cheerio = require('cheerio');
+const formdata = require('form-data');
 
 module.exports = class TNTVillageAPI {
 
@@ -51,9 +52,16 @@ module.exports = class TNTVillageAPI {
   _get(query = {}) {
     if (this._debug) console.info(`DEBUG: Making request to: '${this._baseUrl}', query: ${JSON.stringify(query)}`);
 
+    const form = new formdata();
+    for (var property in query) {
+        if (query.hasOwnProperty(property)) {
+            form.append(property, query[property]);
+        }
+    }
+
     return got(this._baseUrl, {
       method: 'POST',
-      body: query,
+      body: form,
       timeout: this._timeout
     }).then(({ body }) => body);
   }

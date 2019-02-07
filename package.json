@@ -1,6 +1,6 @@
 {
   "name": "tntvillage-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A TNTVillage API wrapper for NodeJS.",
   "homepage": "https://github.com/drebrez/TNTVillage-API",
   "repository": {
@@ -13,15 +13,16 @@
   "license": "MIT",
   "main": "tntvillage-api.js",
   "dependencies": {
-    "cheerio": "^0.22.0",
-    "got": "^6.7.1"
+    "cheerio": "^1.0.0-rc.2",
+    "form-data": "^2.3.3",
+    "got": "^9.6.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^4.2.0",
     "chai-string": "^1.3.0",
-    "coveralls": "^2.12.0",
+    "coveralls": "^3.0.2",
     "istanbul": "^0.4.5",
-    "mocha": "^3.2.0"
+    "mocha": "^5.2.0"
   },
   "scripts": {
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha -- --timeout 60000 --reporter spec"

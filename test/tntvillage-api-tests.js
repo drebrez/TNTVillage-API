@@ -39,8 +39,6 @@ describe('TNTVillageAPI', () => {
     tntvillage.search('GoldenEye').then(res => {
       //console.log('   -> response: ' + JSON.stringify(res));
 
-      res.should.be.json;
-
       res.response_time.should.be.above(10);
       res.page.should.be.equal(1);
       res.total_results.should.be.below(10);
@@ -62,8 +60,6 @@ describe('TNTVillageAPI', () => {
         page: page
       }).then(res => {
         //console.log('   -> response: ' + JSON.stringify(res));
-
-        res.should.be.json;
 
         res.response_time.should.be.above(10);
         res.page.should.be.equal(page);
