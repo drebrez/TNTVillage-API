@@ -10,7 +10,7 @@ module.exports = class TNTVillageAPI {
 
     this._baseUrl = 'http://tntvillage.scambioetico.org/src/releaselist.php';
 
-    this._timeout = 3 * 1000;
+    this._timeout = 5 * 1000;
 
     this._debug = debug;
 
